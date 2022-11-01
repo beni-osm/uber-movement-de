@@ -1,0 +1,7 @@
+boto3==1.21.31
+botocore==1.24.31
+pandas==1.3.5
+numpy==1.20.3
+Flask==2.0.2
+awsglue-local==1.0.2
+pydev==0.0.1
