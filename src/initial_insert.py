@@ -81,7 +81,6 @@ if __name__ == "__main__":
     result_table = concatenate_datatables(
         [bogota, boston, johburg_pretoria, manila, paris, sydney, washington_dc])
 
-    result_table = result_table[:1000]
     # Convert dataframe to json
     result_json = json.loads(result_table.to_json(orient='records'))
 
